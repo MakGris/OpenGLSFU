@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D547A8E22BBBF8A200664404 /* display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D547A8E12BBBF8A200664404 /* display.cpp */; };
+		D547A8E52BBBF9D200664404 /* moveAndRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D547A8E32BBBF9D200664404 /* moveAndRotate.cpp */; };
 		D5821DAC2BAC4A450099BF73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5821DAB2BAC4A450099BF73 /* main.cpp */; };
 		D5821DB42BAC4AFA0099BF73 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5821DB32BAC4AFA0099BF73 /* OpenGL.framework */; };
 		D5912A712BAC514800AD4156 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5912A702BAC514800AD4156 /* libGLEW.2.2.0.dylib */; };
@@ -27,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D547A8E02BBBF82E00664404 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		D547A8E12BBBF8A200664404 /* display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = display.cpp; sourceTree = "<group>"; };
+		D547A8E32BBBF9D200664404 /* moveAndRotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moveAndRotate.cpp; sourceTree = "<group>"; };
+		D547A8E62BBBFA1900664404 /* moveAndRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveAndRotate.h; sourceTree = "<group>"; };
 		D5821DA82BAC4A450099BF73 /* OpenGLLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5821DAB2BAC4A450099BF73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D5821DB32BAC4AFA0099BF73 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -10432,6 +10438,10 @@
 			children = (
 				D5912A742BAC535900AD4156 /* OpenGLLearn.entitlements */,
 				D5821DAB2BAC4A450099BF73 /* main.cpp */,
+				D547A8E02BBBF82E00664404 /* display.h */,
+				D547A8E12BBBF8A200664404 /* display.cpp */,
+				D547A8E32BBBF9D200664404 /* moveAndRotate.cpp */,
+				D547A8E62BBBFA1900664404 /* moveAndRotate.h */,
 			);
 			path = OpenGLLearn;
 			sourceTree = "<group>";
@@ -23328,7 +23338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D547A8E22BBBF8A200664404 /* display.cpp in Sources */,
 				D5821DAC2BAC4A450099BF73 /* main.cpp in Sources */,
+				D547A8E52BBBF9D200664404 /* moveAndRotate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
